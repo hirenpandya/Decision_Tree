@@ -1,0 +1,12 @@
+Summary:
+Total rows in the original set: 14
+Total rules discovered: 5
+Traget Attribute: PlayTennis
+-------------------------------------------------------------------
+
+Rules:
+Rule#1 IF outlook=rain  Windy=false  then PlayTennis=P  
+Rule#2 IF outlook=rain  Windy=true  then PlayTennis=N  
+Rule#3 IF outlook=overcast  then PlayTennis=P  
+Rule#4 IF outlook=sunny  Humidity=high  then PlayTennis=N  
+Rule#5 IF outlook=sunny  Humidity=normal  then PlayTennis=P  
